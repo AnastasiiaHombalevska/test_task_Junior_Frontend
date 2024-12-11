@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oddity</title>
 </head>
 <body>
-  <h1>Hello, visitor!</h1>
+  <header class="header">
+    <div class="header__links">
+      <a href="#mail" class="header__link mail">Gmail</a>
+      <a href="#images" class="header__link images">Зображення</a>
+      <a href="#menu" class="header__link menu">
+        <img src="" alt="">
+      </a>
+      <a href="#login" class="header__link login">Увійти</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="serch">
+      <img src="" alt="" class="logo">
+    
+      <form action="" class="serch-form">
+        <label for="serch-field"></label>
+        <input
+          type="text"
+          id="serch-field">
+      </form>
+    </section>
+
+    <section>
+      <div class="btns_container" >
+        <button class="btn google">Пошук Google</button>
+        <button class="btn lucky">Мені пощастить</button>
+      </div>
+
+      <p class="language">Мова Google: <span class="current-language">English</span></p>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer-top">
+      <p>Україна</p>
+    </div>
+
+    <div class="footer-bottom">
+      <ul class="footer_list_links">
+        <li class="link-item">
+          <a href="#about">Про Google</a>
+        </li>
+        <li class="link-item">
+          <a href="#advertising">Реклама</a>
+        </li>
+        <li class="link-item">
+          <a href="#business">Для бізнесу</a>
+        </li>
+        <li class="link-item">
+          <a href="#how-it-works">Як працює пошук</a>
+        </li>
+      </ul>
+
+      <ul class="footer_list_links">
+        <li class="link-item">
+          <a href="#privacy">Конфіденційність</a>
+        </li>
+        <li class="link-item">
+          <a href="#terms">Умови</a>
+        </li>
+        <li class="link-item">
+          <a href="#settings">Налаштування</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
   <script src="src/script/script.js"></script>
 </body>
 </html>
