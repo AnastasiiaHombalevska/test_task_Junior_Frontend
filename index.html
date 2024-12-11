@@ -1,12 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Oddity</title>
+  <link rel="icon" href="./src/images/logos/oddity-logo.jpg">
+  <link href="https://fonts.cdnfonts.com/css/arial" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/style.css">
 </head>
-<body>
-  <h1>Hello, visitor!</h1>
+
+<body class="body">
+  <header class="header">
+    <div class="header__links">
+      <a href="#mail" class="header__link mail link">Gmail</a>
+      <a href="#images" class="header__link images link">Зображення</a>
+      <a href="#menu" class="header__link menu link">
+        <img src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="Menu Icon">
+      </a>
+      <a href="#login" class="header__link login link">Увійти</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="search">
+      <img
+        src="/src/images/logos/google-logo.png"
+        alt="Google logo"
+        class="logo google-logo"
+      >
+
+      <img
+        src="./src/images/logos/oddity-logo.jpg"
+        alt="Oddity logo"
+        class="logo oddity-logo hidden"
+      >
+    
+      <form action="#" class="search-form">
+        <a href="#serch" class="search-btn search-icon icon"></a>
+
+        <label for="search-field"></label>
+        <input
+          type="text"
+          id="search-field"
+          class="search-field"
+        />
+        
+        <div class="btn_container">
+          <a class="voice-search icon"></a>
+          <a class="image-search icon"></a>
+        </div>
+      </form>
+
+      <div class="btns_container">
+        <button class="btn google">Пошук Google</button>
+        <button class="btn lucky">Мені пощастить</button>
+      </div>
+
+      <p class="language">Мова Google: <a class="current-language">English</a></p>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="footer-top">
+      <p class="country">Україна</p>
+    </div>
+
+    <div class="footer-bottom">
+      <ul class="footer_list_links">
+        <li class="list-item">
+          <a href="#about" class="link">Про Google</a>
+        </li>
+        <li class="list-item">
+          <a href="#advertising" class="link">Реклама</a>
+        </li>
+        <li class="list-item">
+          <a href="#business" class="link">Для бізнесу</a>
+        </li>
+        <li class="list-item">
+          <a href="#how-it-works" class="link">Як працює пошук</a>
+        </li>
+      </ul>
+
+      <ul class="footer_list_links">
+        <li class="list-item">
+          <a href="#privacy" class="link">Конфіденційність</a>
+        </li>
+        <li class="list-item">
+          <a href="#terms" class="link">Умови</a>
+        </li>
+        <li class="list-item">
+          <a href="#settings" class="link">Налаштування</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
   <script src="src/script/script.js"></script>
 </body>
 </html>
