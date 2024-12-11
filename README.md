@@ -1,8 +1,8 @@
-#Test task for junior front-end developer
+# Test task for junior front-end developer
 
-Demo [test task]()
-Code [test task]()
+# Demo [test task]()
+# Code [test task]()
 
-Author Anastasiia Hombalevska
+# Author Anastasiia Hombalevska
 - [CV]()
 - [Portfolio]()
